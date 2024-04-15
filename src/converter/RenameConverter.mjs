@@ -1042,6 +1042,14 @@ class RenameConverter extends AbstractConverter {
             ["textures/entity/zombie_villager2/levels/iron.png", "textures/entity/zombie_villager2/levels/level_iron.png"],
             ["textures/entity/zombie_villager2/levels/stone.png", "textures/entity/zombie_villager2/levels/level_stone.png"],
             ["textures/entity/zombie_villager2/professions/mason.png", "textures/entity/zombie_villager2/professions/stonemason.png"]
+
+            // Other Changes requested by umfy
+            ["textures/block/dirt_path_side.png", "textures/blocks/grass_path_side.png"],
+            ["textures/block/dirt_path_top.png", "textures/blocks/grass_path_top.png"],
+            ["textures/block/mangrove_log.png", "textures/blocks/mangrove_log_side.png"],
+            ["textures/block/stripped_mangrove_log.png", "textures/blocks/stripped_mangrove_log_side.png"],
+            ["textures/block/cherry_log.png", "textures/blocks/cherry_log_side.png"],
+            ["textures/block/stripped_cherry_log.png", "textures/blocks/stripped_cherry_log_side.png"],
         ];
     }
 }
