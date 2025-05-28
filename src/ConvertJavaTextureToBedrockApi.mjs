@@ -1,4 +1,4 @@
-import { AbstractBaseApi } from "@modifiedcommand/convert-base-api";
+import { AbstractBaseApi } from "@vironite-23/convert-base-api";
 import { converters } from "./converter/index.mjs";
 
 /**
