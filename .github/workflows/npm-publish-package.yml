@@ -18,7 +18,7 @@ jobs:
           always-auth: true
           node-version: "14.x"
           registry-url: "https://registry.npmjs.org"
-          scope: "@modifiedcommand"
+          scope: "@vironite-23"
       - name: Publish
         run: yarn publish --access public 
         env:
