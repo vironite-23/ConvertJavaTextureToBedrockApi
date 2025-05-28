@@ -4,7 +4,7 @@ import { converters } from "./converter/index.mjs";
 /**
  * Class ConvertJavaTextureToBedrockApiViro
  */
-class ConvertJavaTextureToBedrockApiViro extends AbstractBaseApi {
+class ConvertJavaTextureToBedrockApi extends AbstractBaseApi {
     /**
      * @inheritDoc
      */
@@ -28,4 +28,4 @@ class ConvertJavaTextureToBedrockApiViro extends AbstractBaseApi {
     }
 }
 
-export { ConvertJavaTextureToBedrockApiViro };
+export { ConvertJavaTextureToBedrockApi };
