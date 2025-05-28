@@ -1,4 +1,4 @@
-import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { AbstractConverter } from "@vironite-23/convert-base-api";
 import { MetadataConverter } from "./MetadataConverter.mjs";
 
 /**

@@ -1,4 +1,4 @@
-import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { AbstractConverter } from "@vironite-23/convert-base-api";
 import { ArrowConverter } from "./ArrowConverter.mjs";
 import { AtlasConverter } from "./AtlasConverter.mjs";
 import { BannerPatternConverter } from "./BannerPatternConverter.mjs";

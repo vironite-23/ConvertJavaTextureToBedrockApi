@@ -1,4 +1,4 @@
-import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { AbstractConverter } from "@vironite-23/convert-base-api";
 import { DeleteConverter } from "./DeleteConverter.mjs";
 import Jimp from "@geekcornernpm/jimp-plugins";
 
@@ -184,7 +184,11 @@ class PngToTgaConverter extends AbstractConverter {
             ["textures/items/leather_horse_armor.png", "textures/items/leather_horse_armor.tga"],
             ["textures/items/leather_leggings.png", "textures/items/leather_leggings.tga"],
             ["textures/models/armor/leather_1.png", "textures/models/armor/leather_1.tga"],
-            ["textures/models/armor/leather_2.png", "textures/models/armor/leather_2.tga"]
+            ["textures/models/armor/leather_2.png", "textures/models/armor/leather_2.tga"],
+            
+            //new added
+            ["textures/blocks/pale_oak_leaves.png", "textures/blocks/pale_oak_leaves.tga"],
+            ["textures/blocks/pale_oak_leaves.png", "textures/blocks/pale_oak_leaves_carried.tga"]
         ];
     }
 }

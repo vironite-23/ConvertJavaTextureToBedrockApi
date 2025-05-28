@@ -1,4 +1,4 @@
-import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { AbstractConverter } from "@vironite-23/convert-base-api";
 import { DeleteConverter } from "./DeleteConverter.mjs";
 
 /**
@@ -48,7 +48,8 @@ class AtlasConverter extends AbstractConverter {
     static get DEFAULT_CONVERTER_DATA() {
         return [
             ["textures/items/clock_", 63, "textures/items/watch_atlas.png"],
-            ["textures/items/compass_", 31, "textures/items/compass_atlas.png"]
+            ["textures/items/compass_", 31, "textures/items/compass_atlas.png"],
+            ["textures/items/recovery_compass_", 31, "textures/items/recovery_compass_atlas.png"]
         ];
     }
 }

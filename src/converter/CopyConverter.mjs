@@ -1,4 +1,4 @@
-import { AbstractConverter } from "@modifiedcommand/convert-base-api";
+import { AbstractConverter } from "@vironite-23/convert-base-api";
 
 /**
  * Class CopyConverter
@@ -88,6 +88,10 @@ class CopyConverter extends AbstractConverter {
 
             // Wither
             ["textures/entity/creeper/creeper_armor.png", "textures/entity/wither_boss/wither_armor_blue.png"],
+
+            // Trial spawner
+            ["textures/blocks/trial_spawner_top_active.png", "textures/blocks/trial_spawner_top.png"],
+            ["textures/blocks/trial_spawner_top_ejecting_reward.png", "textures/blocks/trial_spawner_top_open.png"],
 
             ["bedrock_textures/", "textures/"]
         ];
