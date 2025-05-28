@@ -2,9 +2,9 @@ import { AbstractBaseApi } from "@vironite-23/convert-base-api";
 import { converters } from "./converter/index.mjs";
 
 /**
- * Class ConvertJavaTextureToBedrockApi
+ * Class ConvertJavaTextureToBedrockApiViro
  */
-class ConvertJavaTextureToBedrockApi extends AbstractBaseApi {
+class ConvertJavaTextureToBedrockApiViro extends AbstractBaseApi {
     /**
      * @inheritDoc
      */
@@ -15,7 +15,7 @@ class ConvertJavaTextureToBedrockApi extends AbstractBaseApi {
 
         const output = await super.convert();
 
-        this.log.log("Please reopen Minecraft after selecting the converted texture pack, because in the current version it seems to be a bug to reload the texture cache (Otherwise it's possible that you will have a mix between your previous and new texture pack, which can lead to appearance bugs that would not occur)");
+        this.log.log("-Main-Please reopen Minecraft after selecting the converted texture pack, because in the current version it seems to be a bug to reload the texture cache (Otherwise it's possible that you will have a mix between your previous and new texture pack, which can lead to appearance bugs that would not occur)");
 
         return output;
     }
@@ -28,4 +28,4 @@ class ConvertJavaTextureToBedrockApi extends AbstractBaseApi {
     }
 }
 
-export { ConvertJavaTextureToBedrockApi };
+export { ConvertJavaTextureToBedrockApiViro };
