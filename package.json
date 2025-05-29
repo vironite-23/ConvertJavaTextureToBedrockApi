@@ -1,7 +1,7 @@
 {
     "name": "@vironite-23/convert-minecraft-java-texture-to-bedrock-api",
     "type": "module",
-    "productName": "ConvertJavaTextureToBedrockApiViro",
+    "productName": "ConvertJavaTextureToBedrockApi",
     "version": "4.1.11",
     "description": "API for convert Minecraft Java texture packs to Bedrock texture packs",
     "keywords": [
@@ -16,12 +16,12 @@
     "license": "GPL-3.0-only",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vironite-23/ConvertJavaTextureToBedrockApiViro.git"
+        "url": "git+https://github.com/vironite-23/ConvertJavaTextureToBedrockApi.git"
     },
     "bugs": {
-        "url": "https://github.com/vironite-23/ConvertJavaTextureToBedrockViro/issues"
+        "url": "https://github.com/vironite-23/ConvertJavaTextureToBedrock/issues"
     },
-    "homepage": "https://github.com/vironite-23/ConvertJavaTextureToBedrockApiViro#readme",
+    "homepage": "https://github.com/vironite-23/ConvertJavaTextureToBedrockApi#readme",
     "dependencies": {
         "@vironite-23/convert-base-api": "1.0.10",
         "uuid": "3.4.0"
