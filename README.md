@@ -74,7 +74,7 @@ This project uses the follow main features or external libraries:
 * [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for offline cache and usage (Web app)
 
 ## Web app
-* Look at the [Source Code](https://github.com/vironite-23/ConvertJavaTextureToBedrockViro) or [Webapp](https://vironite-23.github.io/ConvertJavaTextureToBedrockViro/)
+* Look at the [Source Code](https://github.com/vironite-23/ConvertJavaTextureToBedrock) or [Webapp](https://vironite-23.github.io/ConvertJavaTextureToBedrock/)
 
 ## Report issue
-* Use [GitHub issues](https://github.com/vironite-23/ConvertJavaTextureToBedrockViro/issues/new/choose)
+* Use [GitHub issues](https://github.com/vironite-23/ConvertJavaTextureToBedrock/issues/new/choose)
